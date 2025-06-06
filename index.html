@@ -12,46 +12,135 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+3:wght@400;700&display=swap"
         rel="stylesheet">
+      
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wdth,wght@0,75.9,100..800;1,75.9,100..800&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+
+
     <header class="homepage-hero">
         <div class="content-wrapper">
-            <h1>Taylor M. Savary</h1>
+                 <h1>Taylor M. Savary</h1>
+                <img src="img/head-shot.jpg" alt="professional-headshot"> 
+
+                    <!-- <div class="resume-buttons">
+                    <a href="files/Taylor-Savary-Resume.pdf" class="button" target="_blank" rel="noopener noreferrer">
+                        View My Resume
+                    </a>  
+                </div> -->
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="skills">Skills</a></li>
-                    <li><a href="projects/index.html">Projects</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills-summary">Skills</a></li>
+                    <li><a href="#hands-on-projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <h2>Hello, <br>
-                I'm Taylor, an aspiring cybersecurity professional <br> dedicated to safeguarding digital landscapes and defending <br> against cyber threats.</h2>
-                <img src="img/head-shot.jpg" alt="professional-headshot">
-        </div>
+            <h2 id="hero-intro"></h2>
+           </div>
     </header>
 
+
+
     <main>
+
         <section id="about">
             <div class="content-wrapper">
                 <!--add the content for this section-->
                 <h2>A little bit about me.</h2>
-                <p> My cybersecurity journey began in 2020 during the pandemic when I discovered my fondness for coding and building websites online. Since then, my coding journey combined with professional experience in contract analysis, compliance support, and data management while working as an Assistant Business Representative led me to explore a cybersecurity path. 
+                <p> My cybersecurity journey began in 2020 during the pandemic when I discovered a passion for coding and building websites online. That curiosity,combined with my professional experience in 
+                contract analysis, compliance support, and data management, while working as an Assistant Business Representative,led me to explore a career in cybersecurity.
                 </p>
-                <p>Now, after recently completing the Google Cybersecurity Certificate where I gained hands-on experience using SPLUNK, Linux, Python, and Wireshark and developed skills in threat detection, security controls, and data protection; I am seeking work opportunities applying my training in real-wrold environments. 
-                
-                I am currently studying for the CompTIA Security+ and I'm excited to bring my analytical mindset, attention to detail, and passion for cybersecurity to a mission driven team.
-                </p>
+                <p> Recently, I completed the Google Cybersecurity Certificate where I gained hands-on experience using SPLUNK, Linux, Python, SQL, and Wireshark while developing practical skills in threat detection, data protection, risk assessment, and incident response. I am currently studying for the CompTIA Security+ certification and actively seeking opportunities to apply my training in real-world environments. 
+                I'm excited to bring my analytical mindset, attention to detail, and commitment to secure systems to a mission-driven team.</p>
+
+            </div>
+        </section>
+
+        <section id="skills-summary">
+            <div class="content-wrapper">
+                <h2>Skills Summary</h2>
+            <div class="skills-sumcontainer">
+<!---------------------------Skills-summary-subsection--------------------------->
+                <div class="skills-subsection">
+                <h3>Technical Tools & Platforms</h3>
+                <ul>
+                    <li>Splunk, ServiceNow, tcpdump, Wireshark <br>
+                        Git, Github, VS Code, Netlify<br>
+                        CRM Systems (workflow, automation, case tracking)<br>
+                        Microsoft Office Suite, Google <br>
+                        Workspace, Slack, Zoom
+                    </li>
+                </ul>
+                </div>
+
+                <div class="skills-subsection">
+                 <h3>Programming & Data Skills</h3>
+                 <ul>
+                    <li>SQL (querying, filtering, reporting)<br>
+                        Python (log analysis, automation tasks)<br>
+                        Excel (pivot tables, dashboards)<br>
+                        JavaScript (basic scripting, interactive logic) HTML, CSS<br>
+                    </li>
+                 </ul>
+                </div>
+
+                <div class="skills-subsection">
+                 <h3>Cybersecurity Concepts</h3>
+                     <ul>
+                     <li>NIST Cybersecurity Framework<br>
+                        (CSF), NIST SP 800-30, CIA Triad<br>
+                        SIEM, Risk Identification, Threat<br>
+                        Detection, Incident Response, Log Analysis<br>
+                        System Auditing
+                        </li>
+                    </ul>
+                </div>
+
+                    <div class="skills-subsection">
+                    <h3>Compliance & Operational Expertise</h3>
+                     <ul>
+                     <li> Policy & Regulatory Adherence (Labor Law, CBA’s, )<br>
+                          Contract Lifecycle Management<br>
+                          Grievance & Incident Handling<br>
+                          Workflow Design & Process Improvement<br>
+                          Stakeholder Engagement & Documentation Management<br>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <div class="skills-subsection">
+                    <h3>Soft Skills</h3>
+                     <ul>
+                     <li> Analytical Thinking & Problem Solving<br>
+                          Conflict Resolution, Escalation Handling, Strong Communication<br>
+                          Customer Service, Time Management<br>
+                          Instructional Communication & Policy Interpretation<br>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <div class="skills-subsection" id="operating-system">
+                        <h3>Operating Systems</h3>
+                            <ul>
+                             <li> Windows, macOS, Linux(Ubuntu, CLI)
+                            </li>
+                            </ul>
+                        </div>
+                </div>
+             </div>
             </div>
         </section>
 
         <section id="hands-on-projects">
             <div class="content-wrapper">
                 <!--add the content for this section-->
-                <h2> Hands-On Projects</h2>
+                <h2>Cybersecurity Projects</h2>
                 <div class="projects-containter">
                     <div class="project">
                         <a href="projects/controls.pdf" class="project"</a>
@@ -62,17 +151,26 @@
                 <div class="project">
                    <a href="projects/P4. Portfolio Apply filters to SQL queries.pdf" class="project"</a>
                             <img src= "covers/SQL.png" alt="Applying Filters to SQL"></a>
+                            <p>Strengthend system security by investigating potential issues through applying filters to SQL.</p>
                     </div>
 
                 <div class="project">
                 <a href="projects/Portfolio Incident handler's journal.pdf" class="project"</a>
                             <img src= "covers/incident report.png" alt="Incident Handlers Journal"></a>
+                            <p>Documented a security incident using the 5W's. </p>
                     </div>
 
                 <div class="project">
                  <a href="projects/P5. Portfolio Vulnerability assessment report.pdf" class="project"</a>
                             <img src= "covers/vulnerability report.png" alt="Vulnerability Assessment Report"></a>
+                            <p>Performed a vulnerability assessment of a database server based on the current access controls. </p>
                     </div>
+                
+              <!---- <div class="project">
+                 <a href="" class="project"</a>
+                            <img src= "covers/vulnerability report.png" alt="Working a Ticketing System"></a>
+                            <p>Used the Now Platform from ServiceNow to perform tasks like navigating the ticketing system interface, creating, viewing, searching, updating, & resolving tickets, as well as creating reports. </p>
+                    </div>--->
             </div>
         </section>
 
@@ -84,31 +182,54 @@
         <div class="content-wrapper">
             <!--Add the contact info for the footer-->
             <div class="contact-image">
-                <img src="img/jess-bailey-q10VITrVYUM-unsplash.png"
+                <img src="img/contact-img.jpg"
                     alt="work desk with a keyboard, pen, glasses, and notebook" id="contact-img">
             </div>
             <div class="contact-info">
-                <h2>Like What You See?</h2>
-                <h3 id="email-header">Let's meet for a cup of coffee.</h3>
-                <a href="mailto:hi@JubileeAusten.com"><img src="img/envelope.png" alt="envelope icon"
-                        id="envelope">hi@TaylorMSavary.com</a>
+                <h3>Get In Touch</h3>
+                <h4 id="email-header">Contact Me</h4>
+                <a href="mailto:taylorsavary@gmail.com"><img src="img/envelope.png" alt="envelope icon"
+                        id="envelope">taylorsavarym@gmail.com</a>
                 <h3 id="socialmedia-header">Or, follow me on social media:</h3>
                 <ul>
-                    <li><a href="https://twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter icon"></a>
-                    </li>
-                    <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png"
-                                alt="facebook icon"></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png"
-                                alt="instagram icon"></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.png"
+                    <li><a href="https://www.linkedin.com/in/taylor-m-savary-5b8b6a310/" target="_blank"><img src="img/linkedin.png"
                                 alt="linkedin icon"></a></li>
-                    <li><a href="https://github.com" target="_blank"><img src="img/github.png" alt="github icon"></a>
+                    <li><a href="https://github.com/Taylor-Monet" target="_blank"><img src="img/github.png" alt="github icon"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+<!----------------------------Javascript--------------------->
+    <script>
+  const text = "Hello, I'm Taylor — an aspiring cybersecurity <br> professional dedicated to safeguarding <br> digital landscapes and defending against <br> cyber threats.";
+const heading = document.getElementById("hero-intro");
+let i = 0;
+
+function typeWriter() {
+  if (i < text.length) {
+    if (text.substring(i, i + 4) === "<br>") {
+      heading.innerHTML += "<br>";
+      i += 4;
+    } else {
+      heading.innerHTML += text.charAt(i);
+      i++;
+    }
+    setTimeout(typeWriter, 35);
+  } else {
+    // Wait 3 seconds, then reset and loop
+    setTimeout(() => {
+      heading.innerHTML = ""; // Clear text
+      i = 0;
+      typeWriter(); // Restart
+    }, 3000); // 3000 ms = 3 seconds
+  }
+}
+
+typeWriter();
+
+    </script>
+   </body>
 </html>
