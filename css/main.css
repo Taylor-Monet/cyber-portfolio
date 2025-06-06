@@ -41,7 +41,7 @@ html {
 /****** Header Styles ******/
 .homepage-hero {
     /* background: url('../img/full-background.png'), #F9EFEF; */
-    /* background-color: #242424; */
+    background-color: #242424; 
     background-size: cover;
     background-position: center;
     height: 800px;
